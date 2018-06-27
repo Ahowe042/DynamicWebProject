@@ -1,0 +1,98 @@
+#logo {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+  left: 0px;
+  background: #grey;
+}
+
+#nav-bar {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  background: #cc3939;
+  padding: 100px 0;
+  font-family: Helvetica;
+}
+
+input[name="Logout"] {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: #00c;
+  overflow:visible; 
+  font-size:2em;
+  color: Black;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+}
+
+input[name="back"] {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  color: #00c;
+  overflow:visible; 
+  font-size:2em;
+  color: Black;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-bar a:hover {
+  font-size: 24px;
+  color: white;
+}
+
+body {
+	background: #C0C0C0;
+}
+
+.nav-item {
+  padding: 6px 8px 6px 24px;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  display: block;
+}
+
+#maincontent {
+  margin-left: 210px;
+  margin-right: 100px;
+  margin-top: 70px;
+  background: #C0C0C0;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+}
+
+.displaycar {
+  padding: 0px 70px 0px 40px;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    padding: 0px 70px 0px 40px;
+    font-family: Helvetica;
+}
+
+.img-with-text img {
+    display: inline-block;
+    margin: 0 auto;
+}
